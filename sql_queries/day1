@@ -1,13 +1,19 @@
 
 #10. Display distinct ratings of films.
+exp--aggregating unique movie ratings into one such as pg,U ,Pg-17 etc. which gives us the idea how many unique categories are there in the entire list of movies.
+
 select distinct rating from film;
 
 
 #display all movies whose replacement cost is between 10 and 14
+ exp--retrieving the replacement cost of movies which lie between the given condition i.e between 10 and 14.
+
 select * from film
 where replacement_cost between 10 and 14;
 
 
 #Display all movies which has india in description.
+exp--displaying all the movies which have India in their description in the given set of movie descriptions
+
 select description from film
 where description like '%India%';
