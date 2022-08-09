@@ -18,3 +18,4 @@ exp--displaying all the movies which have India in their description in the give
 select description from film
 where description like '%India%';
  my name is kevin
+  todday is day 1
