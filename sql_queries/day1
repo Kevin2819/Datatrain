@@ -1,0 +1,13 @@
+
+#10. Display distinct ratings of films.
+select distinct rating from film;
+
+
+#display all movies whose replacement cost is between 10 and 14
+select * from film
+where replacement_cost between 10 and 14;
+
+
+#Display all movies which has india in description.
+select description from film
+where description like '%India%';
